@@ -1,0 +1,19 @@
+<h1>Mails for profile: <%=@profile.email%></h1>
+<%= link_to '<=Back', :controller => "profiles", :action => "all" %>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<%= if @prev_offset then link_to '<=Prev', :action => 'profile', :id => @profile, :offset => @prev_offset end %>
+<%= if @next_offset then link_to 'Next=>', :action => 'profile', :id => @profile, :offset => @next_offset end %>
+<table>
+  <tr>
+    <th>subject</th>
+    <th>time</th>
+  </tr>
+
+  <% @mails.each do |mail| %>
+    <tr>
+      <td><%= link_to mail.subject, :controller => "mails", :action => "messages", :id => mail %></td>
+      <td><%= mail.mail_initiate_time%></td>
+    </tr>
+  <% end %>
+</table>
+

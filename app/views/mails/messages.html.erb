@@ -1,0 +1,24 @@
+</br>
+<%= link_to '<= Back', :controller => "mails", :action => "profile", :id => @profile %>
+</br></br>
+Messages for Mail Subject:<b> <%=@email.subject%></b>
+</br>
+</br>
+</br>
+<table>
+  <tr>
+    <th>Sender</th>
+    <th>Recipient</th>
+    <th>Content</th>
+    <th>Date</th>
+  </tr>
+
+  <% @messages.each do |message| %>
+    <tr>
+      <td><%= message.sender%></td>
+      <td><%= message.recipient%></td>
+      <td><%= message.message_content%></td>
+      <td><%= message.message_time%></td>
+    </tr>
+  <% end %>
+</table>

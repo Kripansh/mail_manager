@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  email_unique_id: 
+  message_content: MyText
+  sender: MyString
+  recipient: MyString
+  cc: MyString
+  bcc: MyString
+  attachment_urls: MyText
+  message_time: 2018-07-13 01:41:09
+
+two:
+  email_unique_id: 
+  message_content: MyText
+  sender: MyString
+  recipient: MyString
+  cc: MyString
+  bcc: MyString
+  attachment_urls: MyText
+  message_time: 2018-07-13 01:41:09

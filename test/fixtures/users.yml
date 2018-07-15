@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  username: 
+  email: 
+  encrypted_password: 
+  salt: 
+  type: 
+  account_id: 
+
+two:
+  username: 
+  email: 
+  encrypted_password: 
+  salt: 
+  type: 
+  account_id: 

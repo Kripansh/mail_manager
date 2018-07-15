@@ -1,0 +1,18 @@
+<% @page_title = "Profile | New" -%>
+<div class= "Sign_Form">
+  <h1>New Profile</h1> <%= link_to 'Show All', :action => 'all' %>
+  <%= form_tag(:action => 'create') do %>
+    <p>Email:</br> <%= text_field_tag(:email) %></p>
+    <p>Password:</br> <%= password_field_tag :login_password %></p>
+    <%= submit_tag("create") %>
+  <% end %>
+
+    <% if flash[:error] -%>
+        <p class='error'><%= flash[:error] %></p>
+    <% end -%>
+
+    <% if flash[:notice] -%>
+        <p class='notice'><%= flash[:notice] %></p>
+    <% end -%>
+
+</div>

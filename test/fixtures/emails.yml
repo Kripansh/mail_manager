@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  subject: 
+  profile_id: 
+  mail_initiate_time: 
+  starred: 
+  important: false
+
+two:
+  subject: 
+  profile_id: 
+  mail_initiate_time: 
+  starred: 
+  important: false

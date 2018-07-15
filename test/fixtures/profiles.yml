@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  email: 
+  encrypted_password: 
+  provider: 
+  account_id: 
+  fetch_interval: 
+
+two:
+  email: 
+  encrypted_password: 
+  provider: 
+  account_id: 
+  fetch_interval: 
