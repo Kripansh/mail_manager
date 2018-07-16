@@ -1,6 +1,6 @@
 <% @page_title = "Profile | New" -%>
-<div class= "Sign_Form">
-  <h1>New Profile</h1> <%= link_to 'Show All', :action => 'all' %>
+<div class= "Sign_Form" style="margin: 1%">
+  <h4>New Profile</h4> <%= link_to 'Show All', :action => 'all' %>
   <%= form_tag(:action => 'create') do %>
     <p>Email:</br> <%= text_field_tag(:email) %></p>
     <p>Password:</br> <%= password_field_tag :login_password %></p>

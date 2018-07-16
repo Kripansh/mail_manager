@@ -63,3 +63,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bcrypt-ruby', :require => 'bcrypt'
 gem 'gmail', '0.6.0'
 gem 'sidekiq'
+gem 'bootstrap'
+gem 'jquery-rails'
